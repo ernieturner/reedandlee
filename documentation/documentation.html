@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ARD - Documentation</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.tocify.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/rainbow/themes/tomorrow-night.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/rainbowlines/theme.css" media="screen" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- fav and touch icons -->
+    <link href="img/favico.ico" rel="shortcut icon">
+
+  </head>
+
+  <body>
+    
+    <div class="container" style="margin-top:50px;">
+      <div class="row">
+        <div class="tocify col-sm-3 col-md-3">
+          <div id="toc">
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="col-sm-9 col-md-9">
+          <div class="jumbotron">
+            <h1>ARD Documentation</h1>
+
+            <p>ARD is a modern and minimalist HTML template.ARD has a unique design for your agency or architecture studio.</p>
+           
+            <p class="well well-small">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/RafavaThemes" target="_blank">here</a>. Thank you!</p>
+            
+          </div>
+          <h2>Information</h2>
+          <br>
+          <div class="well">
+         
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td>RafavaThemes</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><a href="mailto:rafavathemes@gmail.com">rafavathemes@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Author URL:</td>
+                                <td><a href="http://themeforest.net/user/RafavaThemes">http://themeforest.net/user/RafavaThemes</a></td>
+                            </tr>
+                            <tr>
+                                <td>Items URL:</td>
+                                <td><a href="http://themeforest.net/user/rafavathemes/portfolio">http://themeforest.net/user/rafavathemes/portfolio</a></td>
+                            </tr>
+                              <tr>
+                                <td>Current Version:</td>
+                                <td>1.2</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation Version</td>
+                                <td>1.2</td>
+                            </tr>
+                        </table>
+                    </div>
+              
+                  
+            
+                
+          </div>
+          <br>
+          <h2>General structure</h2>
+          <br>
+          <p class="well">
+          HTML markup
+          </p>
+          <pre>        
+          <code data-language="csharp">
+&#x3C;!DOCTYPE html&#x3E;
+&#x3C;html lang=&#x22;en&#x22;&#x3E;
+  
+  &#x3C;head&#x3E;
+    
+    &#x3C;meta charset=&#x22;UTF-8&#x22;&#x3E;
+    ---
+
+  &#x3C;/head&#x3E;
+
+&#x3C;body&#x3E;
+
+    &#x3C;!-- LOADER --&#x3E;
+    &#x3C;div class=&#x22;loader-background&#x22;&#x3E;
+    ---
+    &#x3C;/div&#x3E;&#x3C;!-- END LOADER --&#x3E;
+
+    &#x3C;!-- MAIN-CONTAINER --&#x3E;
+    &#x3C;div class=&#x22;main-container&#x22;&#x3E;
+
+        &#x3C;div class=&#x22;menu-left&#x22;&#x3E;
+        --
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;updown-navigation&#x22;&#x3E;
+        --
+        &#x3C;/div&#x3E;
+
+        &#x3C;!-- MS-LEFT --&#x3E;
+        &#x3C;div class=&#x22;ms-left&#x22;&#x3E;
+
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;left1&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left2&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left3&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left4&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left5&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left6&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+    
+        &#x3C;/div&#x3E; &#x3C;!-- END MS-LEFT --&#x3E;
+        
+        &#x3C;!-- MS-RIGHT --&#x3E;
+        &#x3C;div class=&#x22;ms-right&#x22;&#x3E;
+
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;right1&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right2&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right3&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right4&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right5&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right6&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+    
+        &#x3C;/div&#x3E; &#x3C;!-- END MS-RIGHT --&#x3E;
+           
+    &#x3C;/div&#x3E; &#x3C;!-- END MAIN-CONTAINER --&#x3E;
+       
+
+    &#x3C;script type=&#x22;text/javascript&#x22; src=&#x22;js/jquery-2.1.3.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    ---
+
+&lt;/body&gt;
+&lt;/html&gt;
+          </code>
+          </pre>
+          <br>
+          <h2>Files & stylesheets</h2>
+          <br>
+          <p class="well">
+          CSS
+          </p>
+          <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>bootstrap.min.css</code></td>
+                                    <td>The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>ionicons.min.css</code></td>
+                                    <td>Scalable vector icons.</td>
+                                </tr>
+                                 <tr>
+                                    <td><code>styles.css</code></td>
+                                    <td>Customized css.</td>
+                                </tr>
+                                 <tr>
+                                    <td><code>vegas.css</code></td>
+                                    <td>Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements.</td>
+                                </tr>
+                                   <tr>
+                                    <td><code>magnific-popup.css</code></td>
+                                    <td>Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing best experience for user with any device.</td>
+                                </tr>
+                                 <tr>
+                                    <td><code>owl.carousel.css</code></td>
+                                    <td> Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.</td>
+                                </tr>         
+                            </tbody>
+                        </table>
+            <p class="well">
+          JS
+          </p>
+          <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                    <td><code>bigtext.js</code></td>
+                                    <td>jQuery plugin, calculates the font-size and word-spacing needed to match a line of text to a specific width.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery-2.1.3.min.js</code></td>
+                                    <td>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.multiscroll.js</code></td>
+                                    <td>Create full screen pages with two scrolling sections per page.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jqBootstrapValidation.js</code></td>
+                                    <td>A JQuery validation plugin for bootstrap contact forms.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>vegas.js</code></td>
+                                    <td>Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>bootstrap.min.js</code></td>
+                                    <td>Bootstrap javascript</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.magnific-popup.min.js</code></td>
+                                    <td>Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing best experience for user with any device.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>owl.carousel.js</code></td>
+                                    <td>Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>pace.js</code></td>
+                                    <td>Pace is a Javascript and CSS library to automatically add beautiful progress and activity indicators for page loads</td>
+                                </tr>
+                                <tr>
+                                    <td><code>main.js</code></td>
+                                    <td>Customized javascript</td>
+                                </tr>
+                                   <tr>
+                                    <td><code>easing.js</code></td>
+                                    <td> jQuery plugin to give advanced easing options.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+          <br>
+
+          <h2>Getting Started</h2>
+          <br>
+          <p class="well">
+          <span class="note"><strong>Note: </strong>For the most part of our customization we are going to use 3 files index.html,styles.css and main.js
+          </span>
+          </p>
+          <h3>Add sections</h3>
+          <p class="well note">
+          If you look up in our <strong>general structure</strong> you will see <code>6 sections</code>,if you want to add <code>2 more sections</code> you will need to create 
+          <code>2</code> divs for right section (<code>#right7</code> and <code>#right8</code>) and  <code>2</code> for left section (<code>#left7</code> and <code>#left8</code>).
+          </p>
+          <pre>        
+          <code data-language="csharp">
+        &#x3C;!-- MS-LEFT --&#x3E;
+        &#x3C;div class=&#x22;ms-left&#x22;&#x3E;
+
+            ...
+        
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left6&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left7&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left8&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+    
+        &#x3C;/div&#x3E; &#x3C;!-- END MS-LEFT --&#x3E;
+        
+        &#x3C;!-- MS-RIGHT --&#x3E;
+        &#x3C;div class=&#x22;ms-right&#x22;&#x3E;
+
+            ...
+
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right6&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right7&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right8&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+    
+        &#x3C;/div&#x3E; &#x3C;!-- END MS-RIGHT --&#x3E;
+           
+    &#x3C;/div&#x3E; &#x3C;!-- END MAIN-CONTAINER --&#x3E;
+
+
+          </code>
+          </pre>
+          <hr>
+          <h3>Remove sections</h3>
+          <p class="well note">
+          If you want to remove <code>1 section</code> of the <strong>general structure</strong>  ,for example <code>section 6</code>, just delete <code>#right6</code> and <code>#left6</code>
+          </p>
+          <pre>
+          <code data-language="csharp">
+        &#x3C;!-- MS-LEFT --&#x3E;
+        &#x3C;div class=&#x22;ms-left&#x22;&#x3E;
+
+            ...
+        
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left4&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section hide-mobile&#x22; id=&#x22;left5&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+        &#x3C;/div&#x3E; &#x3C;!-- END MS-LEFT --&#x3E;
+        
+        &#x3C;!-- MS-RIGHT --&#x3E;
+        &#x3C;div class=&#x22;ms-right&#x22;&#x3E;
+
+            ...
+
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right4&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;right5&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+    
+        &#x3C;/div&#x3E; &#x3C;!-- END MS-RIGHT --&#x3E;
+           
+    &#x3C;/div&#x3E; &#x3C;!-- END MAIN-CONTAINER --&#x3E;
+
+
+          </code>
+          </pre>
+          <p class="well">
+          <span class="note"><strong>Note: </strong>If you add or remove sections try to keep a numeric order for the sections<code>#left1</code>,<code>#left2</code>,<code>#left3</code> <strong>not</strong> <code>#left1</code>,<code>#left3</code>,<code>#left5</code>
+          </span>
+          </p>
+          <hr>
+          <h3>Javascript</h3>
+          <p class="well">
+           Once you've added or removed your sections you need to go to <code>main.js</code> located in <code>js</code> folder.And look for the <code>//MULTISCROLL</code>  function. And add or remove anchors according to the numbers of sections you have.
+          </p>
+          <pre>        
+          <code data-language="javascript">
+    //MULTISCROLL
+    $('#main-container').multiscroll({
+        sectionsColor: [ 'white','white','white','white','white','white'],
+        anchors: [ 'first','second','third','fourth','fifth','sixth'],
+        easing:'easeInOutCubic',
+        menu:'.menu-left',
+        scrollingSpeed: 1000
+        ...
+    
+    });
+          </code>
+          </pre>
+          <p class="well">
+          For example we need <code>5 sections</code> so we have <code>5 anchors</code>
+          </p>
+          <pre>        
+          <code data-language="javascript">
+    //MULTISCROLL
+    $('#main-container').multiscroll({
+        sectionsColor: [ 'white','white','white','white','white'],
+        anchors: [ 'first','second','third','fourth','fifth'],
+        easing:'easeInOutCubic',
+        menu:'.menu-left',
+        scrollingSpeed: 1000
+        ...
+    
+    });
+          </code>
+          </pre>
+          <p class="well">
+          <span class="note"><strong>Remember if you are going to change anchors names : </strong>This function located at the end of our <code>main.js</code>must have the same name as the first anchor, in this case <code>'first'</code>    </span>   
+          <pre>        
+          <code data-language="javascript">
+    
+    //ADD #FIRST ON LOAD
+    window.location.hash = '';
+    window.location.hash = "first";
+      
+          </code>
+          </pre>
+          <p class="well">
+         For a correct responsive function,add or remove this lines depending of the number of sections you have (in this example we have <code>5 sections</code>).This function is also located in <code>main.js</code> .
+          </p>
+          <pre>        
+          <code data-language="javascript">
+  
+    //REVERSE SECTIONS (MOBILE)
+    function reverseSection() {
+        if ($(window).width() <= 1024) {
+            $("#right2").insertAfter("#right1");
+            $("#right3").insertAfter("#right2");
+            $("#right4").insertAfter("#right3");
+            $("#right5").insertAfter("#right4");
+        } else {
+            $("#right2").insertBefore("#right1");
+            $("#right3").insertBefore("#right2");
+            $("#right4").insertBefore("#right3");
+            $("#right5").insertBefore("#right4");
+        }
+    }
+          </code>
+          </pre>
+          <hr>
+          <h3>Add carousels</h3>
+          <p class="well">
+            For each carousel you need a different name. In this case <code>mynewcarousel</code> and <code>#another-carousel</code> 
+          </p>
+          <pre>
+          <code data-language="javascript">  
+
+       &#x3C;div id=&#x22;another-carousel&#x22;&#x3E;
+           
+       &#x3C;/div&#x3E;        
+
+          </code>
+          </pre>
+          <pre>
+          <code data-language="javascript">  
+    
+    //MYNEWCAROUSEL OWL-CAROUSEL
+    var mynewcarousel = $("#another-carousel");
+    mynewcarousel.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3
+    });
+    $(".home-navigation ul .next").on("click", function() {
+        mynewcarousel.trigger("owl.next");
+    });
+    $(".home-navigation ul .prev").on("click", function() {
+        mynewcarousel.trigger("owl.prev");
+    });
+
+          </code>
+          </pre>
+          <hr>
+          <h3>Add projects</h3>
+          <p class="well">
+            Add a new link in  <code>projects-list list-a </code> , we can name it <code>projects-link-4</code>.Next add a new section,in this case <code>section-five</code> .
+          </p>
+          <pre>
+          <code data-language="javascript">  
+
+       &#x3C;div class=&#x22;projects-list list-a&#x22;&#x3E;
+           &#x3C;a class=&#x22;projects-link-4&#x22;&#x3E;&#x3C;/a&#x3E;
+       &#x3C;/div&#x3E;
+       ...
+       &#x3C;div class=&#x22;section-five p-h1 display-none&#x22;&#x3E;
+            
+       &#x3C;/div&#x3E;
+        
+
+          </code>
+          </pre>
+          <p class="well">
+            Now go to <code>main.js</code> and duplicate or add this code with the new names. 
+          </p>
+          <pre>
+          <code data-language="javascript">  
+    
+    //FADE IN-OUT PROJECTS SECTIONS
+    $('.projects-link-4').on("click", function(e) {
+        if (nodoubleclick) return;
+        nodoubleclick = true;
+        e.preventDefault();
+        $('.section-one').fadeOut( 650, function(){
+            $('.section-five').addClass('active-section');
+            $('.section-five').hide().fadeIn(850);
+            if ($(window).width() > 1024) {
+            $('#left4').vegas('options', 'transition', 'slideLeft2').vegas('jump',1);
+            $('#right4').vegas('options', 'transition', 'slideRight2').vegas('jump',1);
+            }
+        });
+    });
+
+          </code>
+          </pre>
+           <p class="well">
+          <span class="note"><strong>Remember : </strong><code>vegas</code> must have the same number as your section projects,in this case <code>#left4</code> and <code>#right4</code>
+          </span>
+          </p>
+          <hr>
+          <h3>Add Team</h3>
+          <br>
+          <p class="well">
+         You need to create a link with a new name, in this case <code>#about-popup-3</code>,and duplicate content with the same name <code>#about-popup-3</code>
+          </p>
+          <pre>
+          <code data-language="javascript">  
+
+  &#x3C;a class=&#x22;about-popup-link mfp-fade&#x22; data-mfp-src=&#x22;#about-popup-2&#x22;&#x3E;Cloé Beaumont&#x3C;/a&#x3E;
+  &#x3C;a class=&#x22;about-popup-link mfp-fade&#x22; data-mfp-src=&#x22;#about-popup-3&#x22;&#x3E;New Name&#x3C;/a&#x3E;
+    
+  &#x3C;div id=&#x22;about-popup-3&#x22; class=&#x22;about-popup-options mfp-hide&#x22;&#x3E;
+   ...
+  &#x3C;/div&#x3E;
+
+            
+          </code>
+          </pre>
+          <hr>
+          <h3>Add image logo</h3>
+          <br>
+          <p class="well">
+         If you prefer to add your image/logo instead of text.Make this little changes to your <code>index.html</code>
+          </p>
+          <pre>
+          <code data-language="javascript">  
+      
+  <!-- MENU-LEFT -->
+  &#x3C;nav class=&#x22;menu-left&#x22;&#x3E;
+    &#x3C;img alt=&#x22;&#x22; src=&#x22;img/yourlogo.jpg&#x22;&#x3E;
+  &#x3C;/nav&#x3E;<!-- END MENU-LEFT -->
+            
+  <!-- LEFT 1 -->
+  &#x3C;div class=&#x22;ms-section show-mobile&#x22; id=&#x22;left1&#x22;&#x3E;
+      &#x3C;div class=&#x22;section-home section&#x22;&#x3E;
+          &#x3C;div class=&#x22;center&#x22;&#x3E;
+              &#x3C;div class=&#x22;col-md-12&#x22;&#x3E;
+                  &#x3C;img alt=&#x22;img-responsive&#x22; alt=&#x22;&#x22; src=&#x22;img/yourimage.jpg&#x22;&#x3E;
+              &#x3C;/div&#x3E;
+          &#x3C;/div&#x3E;         
+      &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;<!-- END LEFT 1 -->
+            
+          </code>
+          </pre>
+          <br>
+          <h2>Style Customization</h2>
+          <br>
+		      <p class="well">
+         For visual style customization go to <code>css</code> folder and open up <code>styles.css</code> 
+          </p>
+          <pre>
+          <code data-language="css">  
+.overlay-right {
+
+    background-color: rgba(255, 255, 255, 0.75); 
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+
+}
+
+          </code>
+          </pre>
+          <br>
+          <h2>Images</h2>
+          <br>
+          <h3>Home Menu Carousel</h3>
+          <p class="well">
+          <span class="note"><strong>index.html</strong> 
+          </span>
+          </p>
+          <pre>
+          <code data-language="csharp">
+&#x3C;div id=&#x22;home-carousel&#x22;&#x3E;
+
+    &#x3C;div class=&#x22;home-img&#x22; style=&#x22;background-image:url(img/carousel-background.jpg)&#x22;&#x3E;&#x3C;/div&#x3E;
+ 
+&#x3C;/div&#x3E;
+          </code>
+          </pre>
+          <hr>
+          <h3>Team</h3>
+          <p class="well">
+          <span class="note"><strong>index.html</strong></span>
+          </p>
+          <pre>
+          <code data-language="csharp">
+&#x3C;div id=&#x22;about-popup&#x22;&#x3E;
+
+    &#x3C;div class=&#x22;team-background&#x22; style=&#x22;background-image:url(img/background.jpg)&#x22;&#x3E;&#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;team-image&#x22; style=&#x22;background-image:url(img/image.jpg)&#x22;&#x3E;&#x3C;/div&#x3E;
+
+&#x3C;/div&#x3E;
+
+          </code>
+          </pre>
+          <hr>
+          <h3>Design carousel</h3>
+          <p class="well">
+          <span class="note"><strong>index.html</strong>  (Same image in both href and style)</span>
+          </p>
+          <pre>
+          <code data-language="csharp">
+&#x3C;div id=&#x22;design-carousel&#x22;&#x3E;
+
+    &#x3C;a class=&#x22;design-popup-link mfp-fade&#x22; href="img/background.jpg"&#x3E;
+    
+        &#x3C;div class=&#x22;design-img&#x22; style="background-image:url(img/background.jpg)"&#x3E;&#x3C;/div&#x3E;
+    
+    &#x3C;/a&#x3E;
+
+&#x3C;/div&#x3E;
+
+          </code>
+          </pre>
+          <hr>
+          <h3>Sections Background</h3>
+          <p class="well">
+          <span class="note"><strong>main.js</strong>  </span>
+          </p>
+          <pre>
+          <code data-language="javascript">
+
+$("#left2").vegas({
+    slides: [
+    { src:  "./img/background-left.jpg"  },MAIN BACKGROUND
+    ],
+    delay: 7000,
+    cover:false,
+    align:'right',
+    timer:false,
+    animation: [ 'kenburns' ]
+});
+
+$("#right2").vegas({
+    slides: [
+    { src:  "./img/background-right.jpg"  },MAIN BACKGROUND
+    ],
+    delay: 7000,
+    cover:false,
+    align:'left',
+    timer:false,
+    animation: [ 'kenburns' ]
+});
+
+          </code>
+          </pre>
+          <p class="well">
+          <span class="note"><strong>Remember : </strong> If you add/remove sections don't forget to reorder numbers here too</span>
+          </p>
+          <hr>
+          <h3>Section Projects</h3>
+           <p class="well">
+          <span class="note"><strong>main.js</strong>  
+          </span>
+          </p>
+          <pre>
+          <code data-language="javascript">
+
+$("#left4").vegas({
+    slides: [
+    { src: "./img/background-left.jpg" },MAIN BACKGROUND
+    { src: "./img/background-left.jpg" },PROJECT 1
+    { src: "./img/background-left.jpg" },PROJECT 2
+    { src: "./img/background-left.jpg" } PROJECT 3
+    ],
+    delay: 7000,
+    cover:false,
+    autoplay:false,
+    align:'right',
+    timer:false,
+    animation: [ 'kenburns' ]
+});
+
+          </code>
+          </pre>
+          <hr>
+          <h3>Mobile background</h3>
+          <p class="well">
+          <span class="note"><strong>styles.css</strong>
+          </span>
+          </p>
+          <p class="well">
+          <span class="note"> <a class="design-popup-link" href="img/mobile.jpg">What's this?</a></span>
+          </p>
+          <pre>
+          <code data-language="css">
+
+&#x22;.ms-right #right2&#x22;{
+
+  background-image: url("../img/background.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+       -webkit-background-size: cover;
+          -moz-background-size: cover;
+           -ms-background-size: cover;
+            -o-background-size: cover;
+               background-size: cover;
+   
+}
+
+          </code>
+          </pre>
+          <hr>
+          <h3>Loader</h3>
+          <p class="well">
+          <span class="note"><strong>styles.css</strong>  </span>
+          </p>
+          <pre>
+          <code data-language="css">
+
+.loader-frame {
+
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border: 6px solid #FEECB3;
+    vertical-align: middle;
+    background-image: url("../img/image.jpg");  
+    background-repeat: no-repeat;
+    background-position: center center;
+   -webkit-background-size: cover;
+      -moz-background-size: cover;
+       -ms-background-size: cover;
+        -o-background-size: cover;
+           background-size: cover;
+}
+
+          </code>
+          </pre>
+          <p class="well">
+          <span class="note">
+            For splitting in two the images, you can use an image editor like photoshop or gimp. You can also use an online editor like <a href="http://imagesplitter.net/" target="_blank">http://imagesplitter.net/</a></span>
+          </p>
+          <p class="well">
+          <span class="note">
+                 If you want to compress your images for a better performance you can use this tool <a href="https://compressor.io/" target="_blank">compressor.io</a>
+          </span>
+          </p>
+          <br>
+          <h2>Map</h2>
+          <br>
+          <p class="well">
+             
+             Go to  <code>js</code> folder and open up  <code>main.js</code> file,scroll down to <code>//GOOGLE MAP</code> function,and add your coordinates here:
+
+          </p> 
+          <pre>
+          <code data-language="javascript">
+
+ var myLatlng = new google.maps.LatLng(48.8588589,2.3475569);
+
+          </code>
+          </pre>
+          <br>
+          <h2>Contact form</h2>
+          <br>
+          <p class="well">
+         Open up the file <code>mailer.php</code> located in <code>js</code> folder and replace <code>youremail</code> with your email to receive messages from the contact form.
+          </p>
+          <pre>
+          <code data-language="php">
+
+&#x3C;?php
+if(empty($_POST[&#x27;name&#x27;])   ||   
+    empty($_POST[&#x27;email&#x27;])  ||
+    empty($_POST[&#x27;message&#x27;])||  
+    !filter_var($_POST[&#x27;email&#x27;],FILTER_VALIDATE_EMAIL))   
+  {    
+       echo &#x22;No arguments Provided!&#x22;;   return false;   
+  }
+     
+  $name = $_POST[&#x27;name&#x27;];
+  $email_address = $_POST[&#x27;email&#x27;];
+  $message = $_POST[&#x27;message&#x27;];     
+
+ $to = &#x27;youremail&#x27;;
+
+ $email_subject = &#x22;Contact form submitted by:  $name&#x22;; $email_body = &#x22;You have received a new message. \n\n&#x22;.                
+                   &#x22; Here are the details:\n \nName: $name \n &#x22;.                 
+                   &#x22;Email: $email_address\n Message \n $message&#x22;;
+ $headers = &#x22;From: youremail\n&#x22;;
+ $headers .= &#x22;Reply-To: $email_address&#x22;;    
+ 
+ mail($to,$email_subject,$email_body,$headers); return true;            
+?&#x3E;
+
+          </code>
+          </pre>
+          <p class="well">
+          <span class="note">
+              <strong>Remember : </strong> Contact form doesn't work locally.
+          </span>
+          </p>
+          <br>
+          <h2>Changelog</h2>
+          <br>
+          <pre>
+          <code data-language="css">
+11/12/2015 Version 1.1 - Fixed console error (multiscroll.js)
+                       - Delete empty css link (multiscroll.css)
+                       - Minor css and js changes
+                       - Avoid double click projects links    
+
+30/01/2016 Version 1.2 - Minor css,html and js changes
+                       - Multiscroll.js changes
+                       - Fixed tablet responsive problem
+                       - New documentation
+                            
+          </code>
+          </pre>
+          <br>
+          <hr>
+          <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p>
+          RafavaThemes.
+          <br>
+	
+      </div>
+      </div><!--/row-->
+          
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/rainbow/rainbow.min.js"></script>
+    <script src="js/rainbow/language/generic.js"></script>
+    <script src="js/rainbow/language/css.js"></script>
+    <script src="js/rainbow/language/javascript.js"></script>
+    <script src="js/rainbowlines/rainbow.linenumbers.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.tocify.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+
+        $('.design-popup-link').magnificPopup({
+        type:'image'
+        });
+    
+    </script>
+
+    <script>
+        $(function() {
+
+          $("#toc").tocify({ selectors: "h2, h3, h4", scrollTo: 60, highlightOffset: 60, extendPage: true });
+
+
+          $("a[href='#']").click(function(event) {
+
+              event.preventDefault();
+
+          });
+
+        
+        });
+    </script>
+  
+
+</body>
+</html>
