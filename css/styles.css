@@ -292,7 +292,7 @@ body > .skiptranslate {
     font-weight: 800;
     letter-spacing: 2px;
     position: fixed;
-    top: 20px;
+    top: 0;
     color: #474444;
 }
 
