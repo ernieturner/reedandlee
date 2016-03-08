@@ -8,15 +8,16 @@
     <title>Reed & Lee</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.png" sizes="64x64" type="image/png" />
+    <link rel="apple-touch-icon" sizes="64x64" href="/favicon.png">
 
     <!-- CSS styles-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/vegas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.1.3/vegas.min.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -39,13 +40,13 @@
         <nav class="menu-left">
             <div class="center">
                 <ul>
-                    <li data-menuanchor="first" class="active"><a href="#first">Home</a></li>
-                    <li data-menuanchor="second"><a href="#second">About</a></li>
-                    <li data-menuanchor="third"><a href="#third">Design</a></li>
-                    <li data-menuanchor="fourth"><a href="#fourth">Services</a></li>
-                    <li data-menuanchor="fifth"><a href="#fifth">Events</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li data-menuanchor="sixth"><a href="#sixth">Contact</a></li>
+                    <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+                    <li data-menuanchor="about"><a href="#about">About</a></li>
+                    <li data-menuanchor="design"><a href="#design">Design</a></li>
+                    <li data-menuanchor="services"><a href="#services">Services</a></li>
+                    <li data-menuanchor="events"><a href="#events">Events</a></li>
+                    <li><a href="http://reedandlee.wordpress.com">Blog</a></li>
+                    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="menu-name"><img src="img/logo_small.png"/></div>
@@ -67,7 +68,9 @@
                 <div class="section-home section">
                     <div class="center">
                         <div class="col-md-8 section-margin">
-                            <a href="#first"><img src="img/logo.png"></a>
+                            <a href="#home">
+                                <img class="img-responsive" src="img/logo.png" alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -104,35 +107,35 @@
                 <div id="home-carousel">
                     <div class="home-item home-height">
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
+                        <div class="home-img" style="background-image: url(img/backgrounds/about-home.jpg)"></div>
                         <div class="home-link">
-                            <a href="#second"><span>about</span></a>
+                            <a href="#about"><span>about</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/backgrounds/design-home.jpg)"></div>
                         <div class="home-link">
-                            <a href="#third"><span>design</span></a>
+                            <a href="#design"><span>design</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
+                        <div class="home-img" style="background-image: url(img/backgrounds/services-home.jpg)"></div>
                         <div class="home-link">
-                            <a href="#fourth"><span>services</span></a>
+                            <a href="#services"><span>services</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/backgrounds/events-home.jpg)"></div>
                         <div class="home-link">
-                            <a href="#fifth"><span>events</span></a>
+                            <a href="#events"><span>events</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
+                        <div class="home-img" style="background-image: url(img/backgrounds/blog-home.jpg)"></div>
                         <div class="home-link">
                             <a href=""><span>blog</span></a>
                         </div>
@@ -141,7 +144,7 @@
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/backgrounds/contact-home.jpg)"></div>
                         <div class="home-link">
-                            <a href="#sixth"><span>contact</span></a>
+                            <a href="#contact"><span>contact</span></a>
                         </div>
                     </div>
                 </div>
@@ -156,15 +159,15 @@
                             <div class="border"></div>
                             <h1>THIS IS US</h1>
                             <p>
-                                Founded in 2008, Reed & Lee is the leading event management team specializing in collaboration between
-                                design and logistics. Formed as Icing on the Cake Events, renamed in 2016, Reed & Lee is a team of
+                                Founded in 2008, Reed & Lee is a leading event management team specializing in the collaboration between
+                                design and logistics. Formed as Icing on the Cake Events and renamed in 2016, Reed & Lee is a team of
                                 Montana natives who enjoy working in the mountains as much as they love playing in the mountains.
                             </p>
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Abby Turner</a></li>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-1">Emily Miller</a></li>
-                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-2">Haley McPhearson</a></li>
+                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-2">Haley MacPherson</a></li>
                             </ul>
                             <div id="about-popup" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
@@ -200,10 +203,9 @@
                             <div class="about-sub">…weddings. events. experiences.</div>
                             <br/>
                             <p>
-                                No matter the type of event, there is a design element that plays into the function of every event.
-                                Designing gorgeous settings for a wedding, structured branded or high-functioning events is our passion.
-                                We succeed in developing events that represent our clients in every instance.  See more of our work on
-                                Instagram and Pinterest.
+                                Regardless of the type of event, the design element plays into function at every event. Designing gorgeous settings
+                                for weddings, high-function or structurally branded events is our passion. We succeed in developing events that epitomize
+                                our client needs at every instance.  See more of our work on Instagram and Pinterest.
                             </p>
                             <p class="italic">
                                 "What they helped design was elegant, comfortable, and affordable. Their ability to combine colors and
@@ -212,27 +214,57 @@
                             </p>
                             <div id="design-carousel">
                                 <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/1.jpg">
                                         <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/1.jpg)"></div>
                                     </a>
                                 </div>
                                 <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/2.jpg">
                                         <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/2.jpg)"></div>
                                     </a>
                                 </div>
                                 <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/3.jpg">
                                         <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/3.jpg)"></div>
                                     </a>
                                 </div>
                                 <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/4.jpg">
                                         <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/4.jpg)"></div>
+                                    </a>
+                                </div>
+                                <div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/5.jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/5.jpg)"></div>
+                                    </a>
+                                </div>
+                                <div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/6.jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/6.jpg)"></div>
+                                    </a>
+                                </div>
+                                <div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/7.jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/7.jpg)"></div>
+                                    </a>
+                                </div>
+                                <div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/8.jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/8.jpg)"></div>
+                                    </a>
+                                </div>
+                                <div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/backgrounds/design/9.jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/backgrounds/design/9.jpg)"></div>
                                     </a>
                                 </div>
                             </div>
@@ -257,9 +289,9 @@
                                 <div class="border"></div>
                                 <h1>WHAT WE DO</h1>
                                 <p>
-                                    The scope of our services can be a varied as our clients. However, a few things remain - our skills are
-                                    devoted to reaching the goals of the event. We accomplish this through raising more funds, creating events
-                                    that function as a marketing piece and reaching a new level of success.
+                                    The scope of our services is as varied as our clients. However, a few things remain - our team is
+                                    devoted to accomplishing the strategic goals of each event. We achieve this through assisting in more than just event management.
+                                    We create events that function as a marketing piece and reach a new level of success for the organization as a whole.
                                 </p>
                                 <p class="italic">
                                     "Abby took care of EVERYTHING and helped keep everyone sane"
@@ -275,7 +307,9 @@
                             <div class="section-two p-h1 display-none">
                                 <div class="border"></div>
                                 <h1>Full Event</h1>
-                                <p>From conception to execution, each detail is uniquely planned out represent our clients in their individual space and organization.</p>
+                                <p>From conception to execution, each detail is uniquely planned out represent our clients individual events.</p>
+                                <p>We provide an event coordination teams to manage each event from the very beginning. The lead coordinator is our client's liaison
+                                between the event and their ideas and goals. </p>
                                 <nav class="navigation">
                                     <ul>
                                         <li class="close-projects"><a class="ion-close-round"></a></li>
@@ -285,7 +319,11 @@
                             <div class="section-three p-h1 display-none">
                                 <div class="border"></div>
                                 <h1>Design</h1>
-                                <p>Color Schemes, Tablescapes, Floral arrangements, Floor layouts - we pull all of the puzzle pieces together for one incredible event experience. </p>
+                                <p>The art of any event lies in the design. During the planning process, functionality of an event is coupled with
+                                design to create visually stunning events that are also highly efficient
+                                </p>
+                                <p>We value creative concepts that play to the brand while accentuating the core purpose of the event.
+                                </p>
                                 <nav class="navigation">
                                     <ul>
                                         <li class="close-projects"><a class="ion-close-round"></a></li>
@@ -295,7 +333,10 @@
                             <div class="section-four p-h1 display-none">
                                 <div class="border"></div>
                                 <h1>Logistics</h1>
-                                <p>Making an event flow and function as though everything happened on it’s own. We allow a casual feel to show through the exactness of back-end management.</p>
+                                <p>
+                                    We strive to create events that flow and function as though every detail happens on its own. By combining a casual feel and
+                                    strategic back-end management, we focus on details while our clients attend their event.
+                                </p>
                                 <nav class="navigation">
                                     <ul>
                                         <li class="close-projects"><a class="ion-close-round"></a></li>
@@ -326,9 +367,8 @@
                             <div class="border"></div>
                             <h1>EXPERIENCE</h1>
                             <p>
-                                Handling the full scope of each of our clients events means organization, time management, guest
-                                services and budget maintenance. Whether we act as the head of an organization committee or as the
-                                sole management team of an event, we use a three-step process to our event planning.
+                                Full scope event management for our clients includes emphasis on timelines, guest services and budget maintenance...to name a few aspects of our job.
+                                Whether as a chair of an organization's committee or as the whole management team, we focus on three main parts of each event in order to make the event as effective as possible.
                             </p>
                             <p class="italic">
                                 "They are very flexible and organized in all ways. They remain calm, cool and collected when faced with obstacles. They
@@ -339,21 +379,21 @@
                                     <div class="block">
                                         <h2>Strategy</h2>
                                         <div class="border"></div>
-                                        <p>Plan, Design, Develop an event based on your goals for the event.</p>
+                                        <p>Plan, Design, Develop an event based on the goals for the event.</p>
                                     </div>
                                 </div>
                                 <div class="services-item">
                                     <div class="block">
                                         <h2>Management</h2>
                                         <div class="border"></div>
-                                        <p>Logistics, On-site management of your event.</p>
+                                        <p>Logistics, Timeline Coordination, On-site management of the event.</p>
                                     </div>
                                 </div>
                                 <div class="services-item">
                                     <div class="block">
                                         <h2>Leverage</h2>
                                         <div class="border"></div>
-                                        <p>Developing a plan to use the event as a launchpad to connect with</p>
+                                        <p>Developing a continuation plan to use the success of the event as a launchpad to connect with guests into the future.</p>
                                     </div>
                                 </div>
                             </div>
@@ -418,7 +458,7 @@
                         <li><a href=""><i class="ion-social-pinterest"></i></a></li>
                     </ul>
                 </div>
-                <div class="copyright">Reed & Lee - <?=date("Y");?> &copy;</div>
+                <div class="copyright">Reed & Lee – &copy; <?=date("Y");?></div>
             </div><!-- END RIGHT 6 -->
 
         </div><!-- END MS-RIGHT -->
@@ -429,16 +469,16 @@
                              JAVASCRIPT
 ==================================================================  -->
 
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
     <script type="text/javascript" src="js/jquery.easings.min.js"></script>
     <script type="text/javascript" src="js/bigtext.js"></script>
     <script type="text/javascript" src="js/jquery.multiscroll.js"></script>
     <script type="text/javascript" src="js/vegas.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/pace.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
 </body>

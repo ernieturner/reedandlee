@@ -46,7 +46,7 @@ $(document).ready(function() {
     //MULTISCROLL
     $('#main-container').multiscroll({
         sectionsColor: ['white','white','white','white','white','white'],
-        anchors: ['first','second','third','fourth','fifth','sixth'],
+        anchors: ['home','about','design','services','events','contact'],
         easing:'easeInOutCubic',
         menu:'.menu-left',
         scrollingSpeed: 1000,
@@ -55,17 +55,17 @@ $(document).ready(function() {
             if (index == 1){
                 if ($(window).width() <= 1024) {
                 $(".loader-background").animate({width:'0%'},600,'swing').fadeOut();
-                $('.updown-navigation').fadeOut(450);
-                $('.menu-left').fadeOut(450);
+                $('.updown-navigation').fadeOut(350);
+                $('.menu-left').fadeOut(350);
                 }
                 else{
                 $(".loader-background").animate({width:'40%'},600,'swing').fadeOut();
-                $('.updown-navigation').fadeOut(450);
-                $('.menu-left').fadeOut(450);
+                $('.updown-navigation').fadeOut(350);
+                $('.menu-left').fadeOut(350);
                 }
             } else{
-                $('.updown-navigation').fadeIn(450);
-                $('.menu-left').fadeIn(450);
+                $('.updown-navigation').fadeIn(350);
+                $('.menu-left').fadeIn(350);
             }
             sectionimage(anchorLink, index);
             naviclose(anchorLink, index);
@@ -159,7 +159,7 @@ $(document).ready(function() {
                 cover:false,
                 align:'right',
                 timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
             $("#right2").vegas({
                 slides: [
@@ -169,7 +169,7 @@ $(document).ready(function() {
                 cover:false,
                 align:'left',
                 timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
         }
         //DESIGN
@@ -182,7 +182,7 @@ $(document).ready(function() {
                 cover:false,
                 align:'right',
                 timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
             $("#right3").vegas({
                 slides: [
@@ -192,84 +192,84 @@ $(document).ready(function() {
                 cover:false,
                 align:'left',
                 timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
-        //PROJECTS
-        if (index == 4){
-            $("#left4").vegas({
-                slides: [
-                  { src: "./img/background-left.jpg" },//MAIN BACKGROUND
-                  { src: "./img/background-left.jpg" },//PROJECT 1
-                  { src: "./img/background-left.jpg" },//PROJECT 2
-                  { src: "./img/background-left.jpg" } //PROJECT 3
-                ],
-                delay: 7000,
-                cover:false,
-                autoplay:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right4").vegas({
-                slides: [
-                { src: "./img/background-right.jpg" },//MAIN BACKGROUND
-                { src: "./img/background-right.jpg" },//PROJECT 1
-                { src: "./img/background-right.jpg" },//PROJECT 2
-                { src: "./img/background-right.jpg" } //PROJECT 3
-                ],
-                delay: 7000,
-                cover:false,
-                autoplay:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
         }
         //SERVICES
+        if (index == 4){
+            $("#left4").vegas({
+                slides: [
+                  { src: "./img/backgrounds/services-left.jpg" },//MAIN BACKGROUND
+                  { src: "./img/backgrounds/services-fullevent-left.jpg" },//Full Event 1
+                  { src: "./img/backgrounds/services-design-left.jpg" },//Design 2
+                  { src: "./img/backgrounds/services-logistics-left.jpg" } //Logistics 3
+                ],
+                delay: 7000,
+                cover:false,
+                autoplay:false,
+                align:'right',
+                timer:false,
+                animation: [ 'kenburnsUp' ]
+            });
+            $("#right4").vegas({
+                slides: [
+                { src: "./img/backgrounds/services-right.jpg" },//MAIN BACKGROUND
+                { src: "./img/backgrounds/services-fullevent-right.jpg" },//Full Event 1
+                { src: "./img/backgrounds/services-design-right.jpg" },//Design 2
+                { src: "./img/backgrounds/services-logistics-right.jpg" } //Logistics 3
+                ],
+                delay: 7000,
+                cover:false,
+                autoplay:false,
+                align:'left',
+                timer:false,
+                animation: [ 'kenburnsUp' ]
+            });
+        }
+        //EVENTS
         if (index == 5){
             $("#left5").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  { src: "./img/backgrounds/events-left.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
                 align:'right',
                 timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
             $("#right5").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: "./img/backgrounds/events-right.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
                 align:'left',
                 timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
         }
         //CONTACT
         if (index == 6){
             $("#left6").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  { src: "./img/backgrounds/contact-left.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
                 align:'right',
                 timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
             $("#right6").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: "./img/backgrounds/contact-right.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
                 align:'left',
                 timer:false,
-                animation: [ 'kenburns' ]
+                animation: [ 'kenburnsUp' ]
             });
         }
     }
@@ -422,7 +422,7 @@ $(document).ready(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
         }
         $.ajax({
-                url: "./js/mailer.php",
+                url: "/contact",
                 type: "POST",
                 data: {name: name, email: email, message: message},
                 cache: false,
@@ -466,6 +466,6 @@ $(window).load(function() {
 
    //ADD #FIRST ON LOAD
    window.location.hash = '';
-   window.location.hash = "first";
+   window.location.hash = "home";
 
 });

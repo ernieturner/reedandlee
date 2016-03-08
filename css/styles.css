@@ -31,40 +31,31 @@ Version: 1.2
 
 body,
 html {
-
     overflow: hidden;
     height:100%;
     font-family: 'lato';
     min-width: 320px;
-
 }
 
 ul,
 ol {
-
     list-style-type: none;
     padding: 0;
-
 }
 
 a:active,
 a:hover,
 a:focus {
-
     outline: 0 none;
     text-decoration: none;
-
 }
 
 a:link {
-
     color: #474444;
     text-decoration: none;
-
 }
 
 h1 {
-
     color: #474444;
     font-size: 70px;
     font-weight: 800;
@@ -72,54 +63,43 @@ h1 {
     margin-bottom: 25px;
     line-height: 1;
     margin-top: 25px;
-
 }
 
 h2 {
-
     letter-spacing: 2px;
     font-size: 25px;
 }
 
 p {
-
     font-size: 16px;
     letter-spacing: 0.4px;
     font-family: "inconsolata";
 }
 
 p,i {
-
     color: #474444;
-
 }
 
 .section,
 .menu-left {
-
     display: table;
     position:relative;
     height: 100%;
     width: 100%;
     z-index: 5;
     table-layout: fixed;
-
 }
 
 .center {
-
     display: table-cell;
     vertical-align: middle;
-
 }
 
 .ms-section {
-
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     position: relative;
-
 }
 
 .ms-section.ms-table {
@@ -277,12 +257,10 @@ body > .skiptranslate {
 ================================================================== */
 
 .menu-left {
-
     position: fixed;
     z-index: 99;
     width: 280px;
     background: rgba(255,255,255,0.75);
-
 }
 
 .menu-name {
@@ -460,7 +438,6 @@ body > .skiptranslate {
 }
 
 .home-overlay {
-
     background:rgba(255,255,255,0.45);
     height: 100%;
     left: 0;
@@ -468,17 +445,13 @@ body > .skiptranslate {
     top: 0;
     width: 100%;
     z-index: 2;
-
 }
 
 .home-item:hover .home-overlay {
-
-      background:rgba(255,255,255,0.25)
-
+    background:rgba(255,255,255,0.25)
 }
 
 .home-img {
-
     height: 100%;
     width: 100%;
     background-position: fixed;
@@ -489,11 +462,9 @@ body > .skiptranslate {
        -ms-background-size: cover;
         -o-background-size: cover;
            background-size: cover;
-
 }
 
 .home-link {
-
     top: 50%;
     position: absolute;
     text-align: right;
@@ -507,11 +478,9 @@ body > .skiptranslate {
        -ms-transition: all 300ms linear;
         -o-transition: all 300ms linear;
            transition: all 300ms linear;
-
 }
 
 .home-link span {
-
     font-family: "lato";
     font-size: 16px;
     font-weight: 900;
@@ -528,11 +497,9 @@ body > .skiptranslate {
        -ms-transition: all 300ms linear;
         -o-transition: all 300ms linear;
            transition: all 300ms linear;
-
 }
 
 .home-link span::before {
-
     content: "";
     height: 6px;
     opacity: 0;
@@ -544,30 +511,24 @@ body > .skiptranslate {
        -ms-transition: all 300ms linear;
         -o-transition: all 300ms linear;
            transition: all 300ms linear;
-
 }
 
 .home-link a {
-
     display: table-cell;
     vertical-align: middle;
     width: 100%;
-
 }
 
 .home-item:hover .home-link {
-
     opacity: 1;
    -webkit-transition: all 300ms linear;
       -moz-transition: all 300ms linear;
        -ms-transition: all 300ms linear;
         -o-transition: all 300ms linear;
            transition: all 300ms linear;
-
 }
 
 .home-item:hover span {
-
     background: rgba(255,255,255,1);
     color: #3D3838;
     opacity: 1;
@@ -576,11 +537,9 @@ body > .skiptranslate {
        -ms-transition: all 300ms linear;
         -o-transition: all 300ms linear;
            transition: all 300ms linear;
-
 }
 
 .home-item:hover span::before {
-
     opacity: 1;
     background: #FEECB3;
    -webkit-transition: all 300ms linear;
@@ -588,37 +547,30 @@ body > .skiptranslate {
        -ms-transition: all 300ms linear;
         -o-transition: all 300ms linear;
            transition: all 300ms linear;
-
 }
 
 .home-item  .home-overlay {
-
    -webkit-transition: all 300ms linear;
       -moz-transition: all 300ms linear;
        -ms-transition: all 300ms linear;
         -o-transition: all 300ms linear;
            transition: all 300ms linear;
-
 }
 
 .home-item .home-img {
-
    -webkit-transition: all 350ms linear;
       -moz-transition: all 350ms linear;
        -ms-transition: all 350ms linear;
         -o-transition: all 350ms linear;
            transition: all 350ms linear;
-
 }
 
 .home-item:hover .home-img {
-
   -webkit-transform: scale(1.075);
      -moz-transform: scale(1.075);
       -ms-transform: scale(1.075);
        -o-transform: scale(1.075);
           transform: scale(1.075);
-
 }
 
 #home-carousel {
@@ -1254,11 +1206,9 @@ button[type="submit"]:hover {
 /* ==================================================================
                               RESPONSIVE
 ================================================================== */
-
+.img-responsive{ margin: 0 auto; }
 @media (max-width: 1024px){
-
     .ms-right #right2 {
-
         background-image: url("../img/background.jpg");
         background-position: center center;
         background-repeat: no-repeat;
@@ -1267,11 +1217,9 @@ button[type="submit"]:hover {
            -ms-background-size: cover;
             -o-background-size: cover;
                background-size: cover;
-
     }
 
     .ms-right #right4 {
-
         background-image: url("../img/background.jpg");
         background-position: center center;
         background-repeat: no-repeat;
@@ -1280,11 +1228,9 @@ button[type="submit"]:hover {
            -ms-background-size: cover;
             -o-background-size: cover;
                background-size: cover;
-
     }
 
     .ms-right #right6 {
-
         background-image: url("../img/background.jpg");
         background-position: center center;
         background-repeat: no-repeat;
@@ -1293,19 +1239,14 @@ button[type="submit"]:hover {
            -ms-background-size: cover;
             -o-background-size: cover;
                background-size: cover;
-
     }
 
     .section-home .section-margin {
-
         padding: 23% !important;
-
     }
 
     .section-margin{
-
         width: 100%;
-
     }
 
     .about-popup-options {
