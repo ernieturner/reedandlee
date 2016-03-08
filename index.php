@@ -3,11 +3,11 @@ date_default_timezone_set('America/Denver');
 
 require 'flight/Flight.php';
 
-Flight::route('GET /', function(){
+Flight::route('/', function(){
     Flight::render('main');
 });
 
-Flight::route('POST /', function(){
+Flight::route('/contact', function(){
     $name = trim($_POST['name']);
     $emailAddress = trim($_POST['email']);
     $message = trim($_POST['message']);
@@ -24,15 +24,13 @@ Flight::route('POST /', function(){
         return false;
     }
 
-    $emailSubject = "Contact form submitted by:  $name";
-    $emailBody = "You have received a new message. \n\n".
-                   " Here are the details:\n \nName: $name \n ".
-                   "Email: $emailAddress\n Message \n $message";
-    $headers = "From: info@reedandlee.com\n";
-    $headers .= "Reply-To: $emailAddress";
+    $emailSubject = "Contact form submitted by: $name";
+    $emailBody = "You have received a contact form message. \n\n Here are the details:\n\nName: $name \n Email: $emailAddress\n Message \n $message";
+    $headers = "From: info@reedandlee.com\nReply-To: $emailAddress";
 
     mail($to, $emailSubject, $emailBody, $headers);
-    return true;
+
+    Flight::json(array('success' => true));
 });
 
 Flight::start();
