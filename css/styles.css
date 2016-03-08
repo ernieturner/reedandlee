@@ -1209,6 +1209,8 @@ button[type="submit"]:hover {
 ================================================================== */
 .img-responsive{ margin: 0 auto; }
 @media (max-width: 1024px){
+  .img-responsive{ max-height: 300px; }
+  .menu-left{ padding-top: 15px; }
     .ms-right #right2 {
         background-image: url("../img/background.jpg");
         background-position: center center;
@@ -1242,208 +1244,149 @@ button[type="submit"]:hover {
                background-size: cover;
     }
 
-    .section-home .section-margin {
+    /*.section-home .section-margin {
         padding: 23% !important;
-    }
+    }*/
 
     .section-margin{
         width: 100%;
     }
 
     .about-popup-options {
-
         width: 100% !important;
-
     }
 
     .section-projects .navigation {
-
         position: relative !important;
         text-align: center;
         display: block !important;
-
     }
 
     .contact-popup-options {
-
         max-width: 100%;
-
     }
 
     .social ul li {
-
         margin-left: 15px !important;
         margin-right: 15px !important;
-
     }
 
     .social ul li i {
-
         font-size: 24px !important;
-
     }
 
     .social {
-
         color: #474444;
         left: 0 !important;
         position: relative !important;
         text-align: center;
         width: 100%;
         margin-top: 25px;
-
     }
 
     .copyright {
-
         left: 0 !important;
         position: relative !important;
         text-align: center;
         width: 100%;
-
     }
 
     .close-projects {
-
         margin-top: 35px;
-
     }
 
     .section-about ul li {
-
         margin-bottom: 15px;
-
     }
 
     .menu-left,
     .menu-name,
     .menu-sub {
-
         height: 0;
         left: -99999px !important;
         opacity: 0 !important;
         position: absolute !important;
-
     }
 
     .updown-navigation {
-
         display: none !important;
-
     }
 
-    .section-margin {
-
+    /*.section-margin {
         padding: 15% 8%;
-
-    }
+    }*/
 
     .show-mobile .ms-tableCell {
-
         height: 100% !important;
-
     }
 
     .vegas-slide {
-
         display: none;
-
     }
 
     .vertical-align {
-
         margin: 0 auto;
         display: table;
-
     }
 
     .hide-mobile {
-
         display: none !important;
-
     }
 
     .ms-left,
     .ms-right {
-
         min-height: 0 !important;
         height: auto !important;
         top: auto !important;
         position: relative !important;
         width: 100% !important;
-
     }
-
 }
 
 @media (min-width: 1025px) {
-
     .section-projects .navigation {
-
         bottom: 40px;
         position: fixed;
         right: 140px;
-
     }
 
     .section-margin {
-
         margin-left: 19%;
-
     }
-
 }
 
 @media (max-width: 468px) {
-
     .border {
-
         height: 14px;
         width: 60px;
-
     }
 
     .section-home .home-name {
-
         margin: 0 auto 20px;
-
     }
 
     .home-sub-b {
-
         margin-top: 18px;
         font-size: 17px !important;
     }
 
     h1 {
-
         font-size: 38px !important;
-
     }
-
 }
 
 @media (min-width: 468px) and (max-width: 1024px){
-
     h1 {
-
         font-size: 55px !important;
-
     }
-
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
     .section .col-md-7 {
-
         width: 70%;
     }
 
     .section-home .section-margin {
-
         margin-left: 20%;
-
     }
-
 }
