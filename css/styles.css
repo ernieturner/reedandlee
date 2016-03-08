@@ -88,6 +88,7 @@ p,i {
     width: 100%;
     z-index: 5;
     table-layout: fixed;
+    padding-top: 40px;
 }
 
 .center {
