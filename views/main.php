@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google-site-verification" content="ZHWS1PoAWHmjFS0F4p6vMAPK_OOox9D4xN1eZne2kbE" />
     <title>Reed & Lee</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -173,7 +174,7 @@
                             </div>
                             <div id="about-popup-1" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
-                                <div class="team-image" style="background-image: url(img/image.jpg)"></div>
+                                <div class="team-image" style="background-image: url(img/emily.jpg)"></div>
                                 <p class="team-name">Emily Miller</p>
                                 <p class="team-profession">Lead Coordinator</p>
                             </div>
