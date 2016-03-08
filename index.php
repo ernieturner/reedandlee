@@ -3,11 +3,11 @@ date_default_timezone_set('America/Denver');
 
 require 'flight/Flight.php';
 
-Flight::route('/', function(){
+Flight::route('GET /', function(){
     Flight::render('main');
 });
 
-Flight::route('/contact', function(){
+Flight::route('POST /', function(){
     $name = trim($_POST['name']);
     $emailAddress = trim($_POST['email']);
     $message = trim($_POST['message']);
