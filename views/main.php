@@ -28,7 +28,7 @@
     <div class="loader-background">
         <div class="loader-center">
             <div class="loader-frame">
-                <div class="loader-name">R&L</div>
+                <div class="loader-name"></div>
             </div>
         </div>
     </div><!-- END LOADER -->
