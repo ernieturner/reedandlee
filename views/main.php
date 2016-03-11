@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="google-site-verification" content="ZHWS1PoAWHmjFS0F4p6vMAPK_OOox9D4xN1eZne2kbE" />
+    <meta name="p:domain_verify" content="0f828d3e2ffed60a2ce5877580134197"/>
     <title>Reed & Lee</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Weddings, special events, and event management company in Bozeman Montana">
     <link rel="shortcut icon" href="/favicon.png" sizes="64x64" type="image/png" />
     <link rel="apple-touch-icon" sizes="64x64" href="/favicon.png">
 
@@ -452,10 +452,10 @@
                 </div>
                 <div class="social">
                     <ul>
-                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://facebook.com/reedandlee" target="_blank"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="https://twitter.com/reedleeco" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href=""><i class="ion-social-instagram"></i></a></li>
-                        <li><a href=""><i class="ion-social-pinterest"></i></a></li>
+                        <li><a href="https://instagram.com/reedandlee" target="_blank"><i class="ion-social-instagram"></i></a></li>
+                        <li><a href="https://pinterest.com/ReedandLee" target="_blank"><i class="ion-social-pinterest"></i></a></li>
                     </ul>
                 </div>
                 <div class="copyright">Reed & Lee – &copy; <?=date("Y");?></div>
