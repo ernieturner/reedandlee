@@ -419,6 +419,15 @@
                             <p>
                                 Drop us a line so we can get started on your event.
                             </p>
+                            <p>
+                                Register for the DIY class here!
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="LMPVCKKQ6J5CG">
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                            </p>
                             <p class="italic">
                                 "Reed &amp; Lee made our wedding a flawless and wondrous affair. With their in-depth knowledge of and close working
                                 relationships with vendors, they knew exactly where to find what I was envisioning within a price range that matched my budget."
