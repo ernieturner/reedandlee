@@ -45,7 +45,7 @@
                     <li data-menuanchor="design"><a href="#design">Design</a></li>
                     <li data-menuanchor="services"><a href="#services">Services</a></li>
                     <li data-menuanchor="events"><a href="#events">Events</a></li>
-                    <li><a href="http://reedandlee.wordpress.com">Blog</a></li>
+                    <!--<li><a href="http://reedandlee.wordpress.com">Blog</a></li>-->
                     <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -106,46 +106,58 @@
                 </nav>
                 <div id="home-carousel">
                     <div class="home-item home-height">
-                        <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/backgrounds/about-home.jpg)"></div>
-                        <div class="home-link">
-                            <a href="#about"><span>about</span></a>
-                        </div>
+                        <a href="#about">
+                            <div class="home-overlay"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/about-home.jpg)"></div>
+                            <div class="home-link">
+                                <span>about</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="home-item home-height">
-                        <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/backgrounds/design-home.jpg)"></div>
-                        <div class="home-link">
-                            <a href="#design"><span>design</span></a>
-                        </div>
+                        <a href="#design">
+                            <div class="home-overlay"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/design-home.jpg)"></div>
+                            <div class="home-link">
+                                <span>design</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="home-item home-height">
-                        <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/backgrounds/services-home.jpg)"></div>
-                        <div class="home-link">
-                            <a href="#services"><span>services</span></a>
-                        </div>
+                        <a href="#services">
+                            <div class="home-overlay"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/services-home.jpg)"></div>
+                            <div class="home-link">
+                                <span>services</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="home-item home-height">
-                        <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/backgrounds/events-home.jpg)"></div>
-                        <div class="home-link">
-                            <a href="#events"><span>events</span></a>
-                        </div>
+                        <a href="#events">
+                            <div class="home-overlay"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/events-home.jpg)"></div>
+                            <div class="home-link">
+                                <span>events</span>
+                            </div>
+                        </a>
                     </div>
+                    <!--<div class="home-item home-height">
+                        <a href="">
+                            <div class="home-overlay"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/blog-home.jpg)"></div>
+                            <div class="home-link">
+                                <span>blog</span>
+                            </div>
+                        </a>
+                    </div>-->
                     <div class="home-item home-height">
-                        <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/backgrounds/blog-home.jpg)"></div>
-                        <div class="home-link">
-                            <a href=""><span>blog</span></a>
-                        </div>
-                    </div>
-                    <div class="home-item home-height">
-                        <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/backgrounds/contact-home.jpg)"></div>
-                        <div class="home-link">
-                            <a href="#contact"><span>contact</span></a>
-                        </div>
+                        <a href="#contact">
+                            <div class="home-overlay"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/contact-home.jpg)"></div>
+                            <div class="home-link">
+                                <span>contact</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div><!-- END RIGHT 1 -->
@@ -163,11 +175,14 @@
                                 design and logistics. Formed as Icing on the Cake Events and renamed in 2016, Reed & Lee is a team of
                                 Montana natives who enjoy working in the mountains as much as they love playing in the mountains.
                             </p>
+                            <img src="img/oncewed.jpg"/>
+                            <a href="https://www.borrowedandblue.com/bozeman/wedding-planners-designers/reed-lee"><img src="img/bb.png"/></a>
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Abby Turner</a></li>
-                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-1">Emily Miller</a></li>
-                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-2">Haley MacPherson</a></li>
+                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-1">Ivy Taylor</a></li>
+                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-2">Emily Miller</a></li>
+                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-3">Haley MacPherson</a></li>
                             </ul>
                             <div id="about-popup" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
@@ -177,11 +192,17 @@
                             </div>
                             <div id="about-popup-1" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
-                                <div class="team-image" style="background-image: url(img/emily.jpg)"></div>
-                                <p class="team-name">Emily Miller</p>
+                                <div class="team-image" style="background-image: url(img/ivy.jpg)"></div>
+                                <p class="team-name">Ivy Taylor</p>
                                 <p class="team-profession">Lead Coordinator</p>
                             </div>
                             <div id="about-popup-2" class="about-popup-options mfp-hide">
+                                <div class="team-background" style="background-image: url(img/background.jpg)"></div>
+                                <div class="team-image" style="background-image: url(img/emily.jpg)"></div>
+                                <p class="team-name">Emily Miller</p>
+                                <p class="team-profession">Lead Designer</p>
+                            </div>
+                            <div id="about-popup-3" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/haley.jpg)"></div>
                                 <p class="team-name">Haley McPherson</p>
@@ -418,15 +439,6 @@
                             <h1>HELLO</h1>
                             <p>
                                 Drop us a line so we can get started on your event.
-                            </p>
-                            <p>
-                                Register for the DIY class here!
-                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                                    <input type="hidden" name="cmd" value="_s-xclick">
-                                    <input type="hidden" name="hosted_button_id" value="LMPVCKKQ6J5CG">
-                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                </form>
                             </p>
                             <p class="italic">
                                 "Reed &amp; Lee made our wedding a flawless and wondrous affair. With their in-depth knowledge of and close working
