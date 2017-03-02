@@ -176,7 +176,7 @@ $(document).ready(function() {
         if (index == 3){
             $("#left3").vegas({
                 slides: [
-                { src: "./img/backgrounds/design-left.jpg" },
+                { src: "./img/backgrounds/design-left.png" },
                 ],
                 delay: 7000,
                 cover:false,
@@ -186,7 +186,7 @@ $(document).ready(function() {
             });
             $("#right3").vegas({
                 slides: [
-                { src: "./img/backgrounds/design-right.jpg" },
+                { src: "./img/backgrounds/design-right.png" },
                 ],
                 delay: 7000,
                 cover:false,
