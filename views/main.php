@@ -42,10 +42,10 @@
                 <ul>
                     <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
                     <li data-menuanchor="about"><a href="#about">About</a></li>
-                    <li data-menuanchor="design"><a href="#design">Design</a></li>
                     <li data-menuanchor="services"><a href="#services">Services</a></li>
                     <li data-menuanchor="events"><a href="#events">Events</a></li>
-                    <!--<li><a href="http://reedandlee.wordpress.com">Blog</a></li>-->
+                    <li data-menuanchor="design"><a href="#design">Design</a></li>
+                    <li><a href="http://reedandlee.wordpress.com">Blog</a></li>
                     <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -115,15 +115,6 @@
                         </a>
                     </div>
                     <div class="home-item home-height">
-                        <a href="#design">
-                            <div class="home-overlay"></div>
-                            <div class="home-img" style="background-image: url(img/backgrounds/design-home.jpg)"></div>
-                            <div class="home-link">
-                                <span>design</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="home-item home-height">
                         <a href="#services">
                             <div class="home-overlay"></div>
                             <div class="home-img" style="background-image: url(img/backgrounds/services-home.jpg)"></div>
@@ -141,7 +132,16 @@
                             </div>
                         </a>
                     </div>
-                    <!--<div class="home-item home-height">
+                    <div class="home-item home-height">
+                        <a href="#design">
+                            <div class="home-overlay"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/design-home.jpg)"></div>
+                            <div class="home-link">
+                                <span>design</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="home-item home-height">
                         <a href="">
                             <div class="home-overlay"></div>
                             <div class="home-img" style="background-image: url(img/backgrounds/blog-home.jpg)"></div>
@@ -149,11 +149,11 @@
                                 <span>blog</span>
                             </div>
                         </a>
-                    </div>-->
+                    </div>
                     <div class="home-item home-height">
                         <a href="#contact">
                             <div class="home-overlay"></div>
-                            <div class="home-img" style="background-image: url(img/backgrounds/contact-home.jpg)"></div>
+                            <div class="home-img" style="background-image: url(img/backgrounds/contact-home.png)"></div>
                             <div class="home-link">
                                 <span>contact</span>
                             </div>
@@ -172,11 +172,13 @@
                             <h1>THIS IS US</h1>
                             <p>
                                 Founded in 2008, Reed & Lee is a leading event management team specializing in the collaboration between
-                                design and logistics. Formed as Icing on the Cake Events and renamed in 2016, Reed & Lee is a team of
-                                Montana natives who enjoy working in the mountains as much as they love playing in the mountains.
+                                design and logistics. Reed & Lee is a team of Montana natives who enjoy working in the mountains as much
+                                as they love playing in the mountains.
                             </p>
                             <img src="img/oncewed.jpg"/>
-                            <a href="https://www.borrowedandblue.com/bozeman/wedding-planners-designers/reed-lee"><img src="img/bb.png"/></a>
+                            <a href="https://www.borrowedandblue.com/bozeman/wedding-planners-designers/reed-lee" target="_blank"><img src="img/bb.png"/></a>
+                            <a href="https://www.rockymountainbride.com" target="_blank"><img src="img/rmb.png"/></a>
+                            <a href="http://www.weddingchicks.com/vendor/portfolio-l-reed-_and_-lee-l-218.html" target="_blank"><img src="img/wedding_chicks.png"/></a>
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Abby Turner</a></li>
@@ -206,7 +208,7 @@
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/haley.jpg)"></div>
                                 <p class="team-name">Haley McPherson</p>
-                                <p class="team-profession">Coordinator in Training</p>
+                                <p class="team-profession">Event Coordinator</p>
                             </div>
                         </div>
                     </div>
@@ -223,10 +225,11 @@
                             <h1>WE CREATE</h1>
                             <div class="about-sub">…weddings. events. experiences.</div>
                             <br/>
-                            <p>
+                            <p class="about-desc">
                                 Regardless of the type of event, the design element plays into function at every event. Designing gorgeous settings
-                                for weddings, high-function or structurally branded events is our passion. We succeed in developing events that epitomize
-                                our client needs at every instance.  See more of our work on Instagram and Pinterest.
+                                for high-function or structurally branded events is our passion. We succeed in developing events that epitomize
+                                our client needs at every instance.  See more of our work on <a href="https://instagram.com/reedandlee" target="_blank">Instagram</a>
+                                and <a href="https://pinterest.com/ReedandLee" target="_blank">Pinterest</a>.
                             </p>
                             <p class="italic">
                                 "What they helped design was elegant, comfortable, and affordable. Their ability to combine colors and

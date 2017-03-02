@@ -586,6 +586,9 @@ body > .skiptranslate {
     font-weight: 400;
     letter-spacing: 5px;
 }
+.about-desc a{
+  color: #F8CB42;;
+}
 
 .section-about p {
     margin-bottom: 25px;
