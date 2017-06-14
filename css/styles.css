@@ -601,7 +601,7 @@ background-size:cover
 background-position:center center;
 background-repeat:no-repeat;
 border:4px solid #FEECB3;
-height:400px;
+height:375px;
 margin:0 auto;
 position:relative;
 top:70px;
@@ -619,11 +619,10 @@ background:#fff;
 font-size:18px;
 font-weight:600;
 height:35px;
-line-height:35px;
 margin:0 auto;
 position:relative;
 text-align:center;
-top:120px
+top:95px
 }
 
 .team-profession {
@@ -631,11 +630,10 @@ background:#fff none repeat scroll 0 0;
 font-size:18px;
 font-weight:600;
 height:35px;
-line-height:35px;
 margin:0 auto;
 position:relative;
 text-align:center;
-top:150px
+top:110px
 }
 
 .team-social {
@@ -671,7 +669,7 @@ transition:all 200ms linear
 
 .about-popup-options {
 background:#fff;
-height:645px;
+height:585px;
 margin:0 auto;
 position:relative;
 width:350px;
