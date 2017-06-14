@@ -187,9 +187,8 @@
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Abby Turner</a></li>
-                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-1">Ivy Taylor</a></li>
-                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-2">Emily Miller</a></li>
-                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-3">Haley MacPherson</a></li>
+                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-1">Emily Miller</a></li>
+                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-2">Haley MacPherson</a></li>
                             </ul>
                             <div id="about-popup" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
@@ -199,17 +198,11 @@
                             </div>
                             <div id="about-popup-1" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
-                                <div class="team-image" style="background-image: url(img/ivy.jpg)"></div>
-                                <p class="team-name">Ivy Taylor</p>
-                                <p class="team-profession">Lead Coordinator</p>
-                            </div>
-                            <div id="about-popup-2" class="about-popup-options mfp-hide">
-                                <div class="team-background" style="background-image: url(img/background.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/emily.jpg)"></div>
                                 <p class="team-name">Emily Miller</p>
                                 <p class="team-profession">Lead Designer</p>
                             </div>
-                            <div id="about-popup-3" class="about-popup-options mfp-hide">
+                            <div id="about-popup-2" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/background.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/haley.jpg)"></div>
                                 <p class="team-name">Haley McPherson</p>
